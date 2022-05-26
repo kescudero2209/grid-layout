@@ -11,7 +11,7 @@ html, body{
         grid-template-columns: 10% auto;
         height: 100vh;  
 }
-nav, cabecera {
+header, cabecera {
     background-color: #b325b3;
     grid-area: header;
     padding: 0.5rem;
