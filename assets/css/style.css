@@ -16,6 +16,7 @@ nav, cabecera {
     grid-area: header;
     padding: 0.5rem;
     text-align: center;
+    color:beige;
 }
 section, .principal {
     display: grid;
@@ -36,6 +37,7 @@ footer{
     background-color: #b325b3;
     text-align: center;
     padding: 1rem;
+    color:beige;
 }
 .flex-container{
     display: flex;
