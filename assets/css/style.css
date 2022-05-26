@@ -11,13 +11,13 @@ html, body{
         grid-template-columns: 10% auto;
         height: 100vh;  
 }
-.cabecera {
+nav, cabecera {
     background-color: #b325b3;
     grid-area: header;
     padding: 0.5rem;
     text-align: center;
 }
-.principal {
+section .principal {
     display: grid;
     background-color: #f3eded;
     grid-area: main;
@@ -26,7 +26,7 @@ html, body{
     gap: 10px;
     padding: 1%;
 }
-.menu-lateral {
+aside, .menu-lateral {
     background-color:#f4f6f7;
     grid-area: sidebar;
 }
@@ -37,6 +37,7 @@ footer{
     padding: 1rem;
 }
 .flex-container{
+    display: flex;
     flex-direction: column;
 }
 .flex-container ul{
@@ -49,7 +50,6 @@ footer{
     background-color: white;
     display: flex;
     flex-direction: column;
-    text-align: center;
     justify-content: center;
     align-items: center;    
 }
