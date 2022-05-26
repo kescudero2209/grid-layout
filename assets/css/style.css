@@ -36,3 +36,38 @@ footer{
     text-align: center;
     padding: 1rem;
 }
+.flex-container{
+    flex-direction: column;
+}
+.flex-container ul{
+    list-style: none;
+}
+.flex-container h3{
+    text-align: center;
+}
+.flex-item{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;    
+}
+.flex-item img{
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.flex-item button{
+    width: 100%;
+    background-color: blue;
+    color: white;
+    padding: 0.8rem;
+}
+.flex-item h5{
+    margin: 1rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button:hover{
+    color: black;
+}
