@@ -44,6 +44,7 @@ footer{
     list-style: none;
 }
 .flex-container h3{
+    height: 0rem;
     text-align: center;
 }
 .flex-item{
